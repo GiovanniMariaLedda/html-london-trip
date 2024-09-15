@@ -1,23 +1,25 @@
 <!DOCTYPE html>
 
-<html lang="en">
+<html lang="It">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    <!-- title -->
-    <h1>Il mio Viaggio a londra</h1>
-    <!-- photo-->
+    <div>
+    <h1>Il mio Viaggio a Londra</h1>
+    <!-- tag <figure> per contenere le immagini -->
         <figure>
             <img src="photo/pexels-bill-emrich-230794-0.jpg" alt="img.1"> 
             <img src="photo/pexels-bill-emrich-230794-1.jpg" alt="img.2"> 
-            <img src="photo/pexels-bill-emrich-230794-2.jpg" alt="img.3"> 
+            <img src="photo/pexels-bill-emrich-230794-2.jpg" alt="img.3">  
         </figure>
-        <hr/>
+    </div>
+    <hr/>
     <div>
         <h2>Le mie spese</h2>
+        <!-- tabella con descrizione costi e somma -->
         <table>
             <thead>
                 <tr>
@@ -43,7 +45,7 @@
                     <td>BigliettoAereo</td>
                     <td>120&euro;</td>
                 </tr>
-                <tr></tr>
+                <tr>
                     <td>Totale</td>
                     <td></td>
                     <td>360&euro;</td>
@@ -54,32 +56,49 @@
     <hr/>
     <div>
         <h3>Cose da fare</h3>
+        <!-- unordered list "cose da fare" -->
             <ul>
                <li>Visitare la Tower of London &#10007;</li> 
                <li>Visitare greenwich &#10003;</li>
                <li>Ascoltare un artista di stada a Covent Garden &#10003;</li>
                <li>Mangiare il tipico Fish and Chips inglese &#10007;</li>
             </ul>
-
     </div>
     <hr/>
     <div>
         <h3>Info utili:</h3>
+        <!-- ordered list contenente delle unordered list  -->
         <ol>
-          <li>Numeri utili d'emergenza</li>  
-          <li>Hotel</li>
-          <li>Aereo</li>
+          <li>Numeri utili d'emergenza
+            <ul> 
+                <li><b>999</b> - Emergenza</li>
+                <li><b>101</b> - Numero polizia</li>
+                <li><b>111</b> - Numero assistenza medica</li>
+            </ul>
+          </li>
+          
+          <li>Hotel
+            <ul> 
+                <li><b>Nome Hotel:</b> Buckingham Palace</li>
+                <li><b>Indirizzo Hotel:</b> Westminster, London SW1A 1AA, Regno Unito</li>
+            </ul>
+          </li>
+          <li>Aereo
+            <ul> 
+                <li><b>Volo di Andata:</b> YI234X, ore 9.30 da Milano Malpensa</li>
+                <li><b>Volo di Ritorno:</b> YI236X, ore 18.30 da London Heathrow</li>
+            </ul>
+          </li>
         </ol>
     </div>
     <hr/>
     <div>
         <h3>Le foto</h3>
+        <!-- tag contenitore "<figure>" per contenere le immagini -->
             <figure>
                 <img src="https://www.abta.com/sites/default/files/styles/large/public/media/uploads/london-400x400-compressor_0.jpg" alt="">
                 <img src="https://imgc.allpostersimages.com/img/posters/evening-tower-bridge-and-river-thames-london_u-L-P2QVZJ0.jpg?artPerspective=n" alt="">
             </figure>
-
     </div>
-
 </body>
 </html>
